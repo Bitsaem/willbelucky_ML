@@ -237,7 +237,7 @@ if __name__ == '__main__':
         '--hidden_units',
         nargs='+',
         type=int,
-        default=[166, 332, 332, 166],
+        default=[166, 332, 664, 332, 332, 166],
         help='Number of units in hidden layers.'
     )
     parser.add_argument(
